@@ -3,5 +3,9 @@
 split_test = "This is Split Test"
 split_test = split_test.split() 
 print(split_test)
-split_test = " ".join(split_test)
-print(split_test)
+split_join = " ".join(split_test)
+print(split_join)
+
+#4.4 Визначити довжину рядку рядку string_join за допомогою функції len()
+split_join_len = len(split_join)
+print(split_join_len)
