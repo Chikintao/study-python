@@ -18,7 +18,7 @@ day_of_week = {
 }
 
 
-if random_number < 8:
+if random_number < 8 and random_number > 0:
     random_string = str(random_number)
     print(day_of_week.get(random_string))
 else:
